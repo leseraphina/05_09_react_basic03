@@ -1,0 +1,31 @@
+body{
+  background-color:#666;
+}
+.custom{
+  width:1000px;
+  margin: 30px auto 0;
+  padding:20px;
+  border:2px solid #333;
+  box-sizing:border-box;
+  display:flex;
+  justify-content: space-between;
+  background-color:#fff;
+}
+.pic{width:500px;}
+.pic>img{width:100%;}
+
+.selector{
+  width:320px;
+  padding:15px;
+  box-sizing: border-box;
+  font-size:30px;
+}
+.selector label{
+  display:inline-block;
+  width:100px;
+}
+.selector select{
+  width:180px;
+  font-size:30px;
+  line-height: 35px;
+}
